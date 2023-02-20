@@ -1,0 +1,37 @@
+{
+    "name": "nogorsolutionsltd/error",
+    "description": "Error pages for the Laravel Framework",
+    "license": "MIT",
+    "homepage": "https://www.nogorsolutions.com/",
+    "support": {
+        "issues": "https://github.com/Nogor-Solutions-Ltd/error/issues",
+        "source": "https://github.com/Nogor-Solutions-Ltd/error"
+    },
+    "authors": [
+        {
+            "name": "Sarfaraz Muhammad Sajib",
+            "email": "hey@m-sarfaraz.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NogorSolutionsLTD\\Error\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                 "NogorSolutionsLTD\\Error\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
