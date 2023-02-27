@@ -1,6 +1,6 @@
 
 # Oh Snap! Error 
-![image info](https://i.ibb.co/ng0dvTy/pika-1677470133814-1x.jpg)
+![image info](https://i.ibb.co/znPvP06/pika-1677470562352-1x.jpg)
 
 A beautiful list of error page for faster development.
 
