@@ -121,6 +121,7 @@
     <div class="what-can-i-do">
         <h2 data-l10n>What can I do?</h2>
         <p class="description" data-l10n>Please try again in a few minutes</p>
+         <a href="{{ url('/') }}" style="color: #000;"><p class="" style="margin-top:10px;"><b>↩ Go Back To Home</b></p></a>    
     </div>
 </div>
 </body>
