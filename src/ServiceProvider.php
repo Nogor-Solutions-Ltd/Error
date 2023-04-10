@@ -15,12 +15,6 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
-        $path = resource_path('views/errors');
-
-        if (File::exists($path)) {
-            File::deleteDirectory($path);
-        }
-
         $this->publishes([
             __DIR__.'/publish/errors' => resource_path('views/errors'),
         ], 'nogor-solutions-ltd-error');
