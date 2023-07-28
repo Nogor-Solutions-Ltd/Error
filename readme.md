@@ -9,17 +9,20 @@ A beautiful list of error page for faster development.
 
 How to Install
 
-`composer require nogorsolutionsltd/error`
+```
+composer require nogorsolutionsltd/error 
+```
 
 then , publish the assets.
 
-`php artisan vendor:publish --tag=nogor-solutions-ltd-error --provider="NogorSolutionsLTD\Error\ServiceProvider"`
+```
+php artisan vendor:publish --tag=nogor-solutions-ltd-error --provider="NogorSolutionsLTD\Error\ServiceProvider"
+```
 
 Now you are all set to go.
 ## Authors
 
 - [@sarfaraz](https://github.com/Muhammad-Sarfaraz)
-
 
 ## Credits
 
